@@ -9,3 +9,6 @@ Description: Conducts an auction where bids can be placed within a certain timef
 
 4.Crowdfunding Contract
 Description: Allows users to contribute funds to a project until a goal is reached.
+
+5.One_ETH/USD Contract
+Description: returs the currunt market value of the 1 ETH in USD using oracle chainlink given 
