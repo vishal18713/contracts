@@ -11,4 +11,7 @@ Description: Conducts an auction where bids can be placed within a certain timef
 Description: Allows users to contribute funds to a project until a goal is reached.
 
 5.One_ETH/USD Contract
-Description: returs the currunt market value of the 1 ETH in USD using oracle chainlink given 
+Description: returs the currunt market value of the 1 ETH in USD using oracle chainlink given.
+
+6.Lottery_contract
+Description: This Solidity contract,implements a basic lottery system where participants can enter by paying an entry fee, and a winner is selected and paid out.
