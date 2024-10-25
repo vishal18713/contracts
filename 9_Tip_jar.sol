@@ -8,7 +8,6 @@ contract TipJar {
     uint public totalTips;
 
     event TipReceived(address indexed sender, uint amount);
-    event Withdrawal(address indexed recipient, uint amount);
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Not owner");
@@ -29,7 +28,18 @@ contract TipJar {
 
         emit TipReceived(msg.sender, msg.value);
 
+        recipient.transfer(msg.value);
 
-        
     }
+
+    function getBalance() external view returns (uint) {
+        return address(this).balance;        
+    }
+
+     function changeRecipient(address payable newRecipient) external onlyOwner {
+        require(newRecipient != address(0), "Invalid recipient address");
+        recipient = newRecipient;
+    }
+
+  
 }
