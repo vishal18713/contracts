@@ -16,5 +16,11 @@ Description: returs the currunt market value of the 1 ETH in USD using oracle ch
 6.Lottery_contract
 Description: This Solidity contract,implements a basic lottery system where participants can enter by paying an entry fee, and a winner is selected and paid out.
 
-7.Savings_Wallet_Contract
+7.Stake_Mines_game contract
+Description: A staking game where players can place bets and earn rewards based on the number of gems they collect.
+
+8.Savings_Wallet_Contract
 Description: Allows users to save funds that can only be withdrawn after a certain time period.
+
+9.Tip_Jar
+Description:allows users to send tips to a specified recipient
