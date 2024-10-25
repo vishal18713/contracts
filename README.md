@@ -1,4 +1,4 @@
-1.Voting Contract
+1.Voting Contract   
 Description: This contract allows users to vote on different proposals. It manages proposals, tracks votes, and ensures each user can only vote once per proposal.
 
 2.Escrow Contract
