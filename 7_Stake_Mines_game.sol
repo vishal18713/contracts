@@ -18,7 +18,7 @@ contract Mines {
     }
 
     function bet() public payable {
-        // require(msg.value >= 0,"enter a valid bet amount");
+       \
         require(msg.value == betRequired ,"Sent value must match bet amount");
         betAmount = msg.value;
         player = msg.sender;
