@@ -21,7 +21,7 @@ contract TimedAuction {
         remaining_time = auctionEndTime - block.timestamp;
     }
 
-    // uint public remaining_time = auctionEndTime - block.timestamp;
+   
 
     function bid() public payable {
         require(block.timestamp <= auctionEndTime, "Auction already ended");
